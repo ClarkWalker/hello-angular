@@ -1,6 +1,7 @@
 <div class="hello-form" ng-controller="HelloForm as ctrl">
   <form>
-    <p>My name is:</p>
-    <input type="text" ng-modle="ctrl.name"></input>
+    My name is:
+    <input type="text" ng-model="ctrl.name"></input>
   </form>
+  <display-name name="ctrl.name"></display-name>
 </div>
